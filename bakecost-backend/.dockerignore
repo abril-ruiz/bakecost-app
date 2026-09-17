@@ -1,0 +1,57 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+*.env
+
+# Artefactos de compilación 
+target/
+
+# Control de versiones 
+.git/
+.gitignore
+.gitattributes
+
+# Archivos de IDE 
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+.sts4-cache
+.apt_generated/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operativo 
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Logs 
+*.log
+logs/
+
+# Archivos temporales 
+*.tmp
+*.bak
+*.swp
+*.orig
+
+#  Documentación
+README.md
+HELP.md
+
+# Docker (no recursivo) 
+Dockerfile
+.dockerignore

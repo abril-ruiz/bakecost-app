@@ -6,6 +6,14 @@ BakeCost permite a productores de panadería y pastelería calcular el costo rea
 
 La aplicación funciona **sin necesidad de crear una cuenta**. Los datos se guardan en el navegador del usuario mediante `localStorage`, lo que permite usarla de inmediato desde cualquier dispositivo sin registro.
 
+## Demo
+
+[Probar BakeCost](https://bakecost-teal.vercel.app/)
+
+> Aplicación desplegada en Vercel  
+> Backend desplegado en Render  
+> Base de datos PostgreSQL en Neon
+
 ## Tecnologías utilizadas
 
 - Frontend: React 19, Vite 8, Material UI 9
@@ -13,7 +21,6 @@ La aplicación funciona **sin necesidad de crear una cuenta**. Los datos se guar
 - Base de datos: PostgreSQL
 - Testing frontend: Vitest
 - Testing backend: JUnit 5 + AssertJ
-- Despliegue: Render (backend) + Render/Vercel (frontend)
 
 ---
 

@@ -207,10 +207,10 @@ export default function SettingsPage() {
           border: "1px solid #ddd6fe",
         }}
       >
-        <CardContent sx={{ p: 3 }}>
+        <CardContent sx={{ p: { xs: 2, sm: 3 } }}>
           <Box sx={{ display: "flex", gap: 1.5, alignItems: "flex-start" }}>
             <InfoIcon sx={{ color: "#7c3aed", mt: 0.2, fontSize: "1.2rem" }} />
-            <Box>
+            <Box sx={{ minWidth: 0, flex: 1 }}>
               <Typography
                 variant="subtitle2"
                 fontWeight={700}
@@ -232,6 +232,8 @@ export default function SettingsPage() {
                   fontSize: "0.78rem",
                   color: "#4c1d95",
                   overflowX: "auto",
+                  maxWidth: "100%",
+                  boxSizing: "border-box",
                   m: 0,
                 }}
               >
